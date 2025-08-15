@@ -5,9 +5,8 @@
 
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
     <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows%20%7C%20macOS-brightgreen" alt="OS Support">
-    <a href="https://twitter.com/7_8_z"><img src="https://img.shields.io/twitter/follow/S4ddler?style=social" alt="Twitter Follow"></a>
+    <a href="https://twitter.com/7_8_z"><img src="https://img.shields.io/twitter/follow/7_8_z?style=social" alt="Twitter Follow"></a>
   </p>
 
   <p align="center">🔍 A powerful and beautiful OSINT command line tool for reconnaissance.</p>
@@ -76,4 +75,5 @@ python main.py --type domain --target "example.com" --output out --format table,
 ## 🔒 Security Notes
 - Only passive techniques are implemented by default except optional lightweight
   port scanning (TCP connect) and AXFR **read-only attempt**. Use responsibly.
+
 
