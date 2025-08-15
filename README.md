@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="800"/>
+    <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="600"/>
   
   # FLOPPA OSINT Tool
 
