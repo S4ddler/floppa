@@ -1,7 +1,7 @@
 <div align="center">
     <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="600"/>
   
-  # FLOPPA OSINT Tool
+  # FLOPPA 1.0
 
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
@@ -75,5 +75,6 @@ python main.py --type domain --target "example.com" --output out --format table,
 ## 🔒 Security Notes
 - Only passive techniques are implemented by default except optional lightweight
   port scanning (TCP connect) and AXFR **read-only attempt**. Use responsibly.
+
 
 
