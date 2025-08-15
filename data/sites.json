@@ -1,0 +1,154 @@
+{
+  "GitHub": {
+    "url": "https://github.com/{account}",
+    "errorType": "status_code"
+  },
+  "Twitter": {
+    "url": "https://twitter.com/{account}",
+    "errorType": "status_code"
+  },
+  "Instagram": {
+    "url": "https://www.instagram.com/{account}",
+    "errorType": "status_code"
+  },
+  "Reddit": {
+    "url": "https://www.reddit.com/user/{account}",
+    "errorType": "status_code"
+  },
+  "TikTok": {
+    "url": "https://www.tiktok.com/@{account}",
+    "errorType": "status_code"
+  },
+  "Pinterest": {
+    "url": "https://www.pinterest.com/{account}/",
+    "errorType": "status_code"
+  },
+  "GitLab": {
+    "url": "https://gitlab.com/{account}",
+    "errorType": "status_code"
+  },
+  "StackOverflow": {
+    "url": "https://stackoverflow.com/users/{account}",
+    "errorType": "status_code"
+  },
+  "Medium": {
+    "url": "https://medium.com/@{account}",
+    "errorType": "status_code"
+  },
+  "DevTo": {
+    "url": "https://dev.to/{account}",
+    "errorType": "status_code"
+  },
+  "HackerNews": {
+    "url": "https://news.ycombinator.com/user?id={account}",
+    "errorType": "status_code"
+  },
+  "LinkedIn": {
+    "url": "https://www.linkedin.com/in/{account}",
+    "errorType": "status_code"
+  },
+  "Keybase": {
+    "url": "https://keybase.io/{account}",
+    "errorType": "status_code"
+  },
+  "Twitch": {
+    "url": "https://www.twitch.tv/{account}",
+    "errorType": "status_code"
+  },
+  "Steam": {
+    "url": "https://steamcommunity.com/id/{account}",
+    "errorType": "status_code"
+  },
+  "TryHackMe": {
+    "url": "https://tryhackme.com/p/{account}",
+    "errorType": "status_code"
+  },
+  "HackerOne": {
+    "url": "https://hackerone.com/{account}",
+    "errorType": "status_code"
+  },
+  "Bugcrowd": {
+    "url": "https://bugcrowd.com/{account}",
+    "errorType": "status_code"
+  },
+  "Discord": {
+    "url": "https://discord.com/users/{account}",
+    "errorType": "status_code"
+  },
+  "XDA": {
+    "url": "https://forum.xda-developers.com/m/{account}",
+    "errorType": "status_code"
+  },
+  "YouTube": {
+    "url": "https://www.youtube.com/@{account}",
+    "errorType": "status_code"
+  },
+  "Facebook": {
+    "url": "https://www.facebook.com/{account}",
+    "errorType": "status_code"
+  },
+  "ProductHunt": {
+    "url": "https://www.producthunt.com/@{account}",
+    "errorType": "status_code"
+  },
+  "Behance": {
+    "url": "https://www.behance.net/{account}",
+    "errorType": "status_code"
+  },
+  "Dribbble": {
+    "url": "https://dribbble.com/{account}",
+    "errorType": "status_code"
+  },
+  "Telegram": {
+    "url": "https://t.me/{account}",
+    "errorType": "status_code"
+  },
+  "VKontakte": {
+    "url": "https://vk.com/{account}",
+    "errorType": "status_code"
+  },
+  "Snapchat": {
+    "url": "https://www.snapchat.com/add/{account}",
+    "errorType": "status_code"
+  },
+  "Pastebin": {
+    "url": "https://pastebin.com/u/{account}",
+    "errorType": "status_code"
+  },
+  "SlideShare": {
+    "url": "https://www.slideshare.net/{account}",
+    "errorType": "status_code"
+  },
+  "Spotify": {
+    "url": "https://open.spotify.com/user/{account}",
+    "errorType": "status_code"
+  },
+  "Vimeo": {
+    "url": "https://vimeo.com/{account}",
+    "errorType": "status_code"
+  },
+  "SoundCloud": {
+    "url": "https://soundcloud.com/{account}",
+    "errorType": "status_code"
+  },
+  "Flickr": {
+    "url": "https://www.flickr.com/people/{account}",
+    "errorType": "status_code"
+  },
+  "FreeCodeCamp": {
+    "url": "https://www.freecodecamp.org/{account}",
+    "errorType": "status_code"
+  },
+  "CodePen": {
+    "url": "https://codepen.io/{account}",
+    "errorType": "status_code"
+  },
+  "Academia": {
+    "url": "https://independent.academia.edu/{account}",
+    "errorType": "status_code"
+  },
+  "About.me": {
+    "url": "https://about.me/{account}",
+    "errorType": "status_code"
+  }
+}
