@@ -63,7 +63,6 @@ def extract_cert_summary(cert_dict: dict) -> dict:
     if not cert_dict:
         return {}
     def _join_name(x):
-        # convert OpenSSL-style tuples to "CN=..."
         try:
             return ", ".join(["=".join(t) for tup in cert_dict.get(x, []) for t in tup])
         except Exception:

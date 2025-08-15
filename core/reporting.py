@@ -29,7 +29,6 @@ def save_reports(meta: dict, result: dict, out_dir: str, formats: list[str]):
 
 
 def _save_csv(result: dict, path: str):
-    # Flatten common shapes; best-effort
     rows = []
     if result.get("accounts"):
         for r in result["accounts"]:

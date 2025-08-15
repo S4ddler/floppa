@@ -34,7 +34,6 @@ class DomainScanner:
     def scan(self, domain: str) -> dict:
         result: Dict = {"dns": {"records": {}}, "whois": {}, "subdomains": []}
 
-        # WHOIS
         try:
             w = whois.whois(domain)
             result["whois"] = {
@@ -48,8 +47,6 @@ class DomainScanner:
             }
         except Exception as e:
             result["whois_error"] = str(e)
-
-        # DNS Records via dig or dnspython
         resolver = dns.resolver.Resolver()
         if self.dns_server:
             resolver.nameservers = [self.dns_server]

@@ -11,11 +11,9 @@ from rich.progress import Progress, SpinnerColumn, TimeElapsedColumn
 
 console = Console()
 
-# Load sites catalog (Sherlock-style) from JSON
 SITES_PATH = Path(__file__).resolve().parent.parent / "data" / "sites.json"
 
 DEFAULT_HEADERS = [
-    # rotate some common desktop/mobile UA
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15",
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0 Safari/537.36",
@@ -44,7 +42,6 @@ class UsernameScanner:
             tasks = []
             for site, cfg in self.sites.items():
                 tasks.append(self._probe_site(sem, session, site, cfg, username))
-            # Progress spinner
             results = []
             with Progress(SpinnerColumn(), *Progress.get_default_columns(), TimeElapsedColumn(), transient=True) as p:
                 task_id = p.add_task("Scanning social sites", total=len(tasks))
