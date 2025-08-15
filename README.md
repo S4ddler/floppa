@@ -1,4 +1,4 @@
-# FLOPPA OSINT Tool
+# FLOPPA
 
 A powerful and beautiful OSINT command line tool for reconnaissance.
 
@@ -48,3 +48,4 @@ python main.py --type domain --target "example.com" --output out --format table,
 ## Notes
 - Only passive techniques are implemented by default except optional lightweight
   port scanning (TCP connect) and AXFR **read-only attempt**. Use responsibly.
+
