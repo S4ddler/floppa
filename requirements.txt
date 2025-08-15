@@ -13,6 +13,5 @@ tqdm>=4.62.3
 urllib3>=1.26.7
 colorama>=0.4.4
 
-# Optional (comment out if not needed)
-# ipwhois
-# cryptography
+ipwhois>=1.0.0
+cryptography>=3.4.7

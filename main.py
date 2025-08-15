@@ -51,8 +51,7 @@ def parse_args():
 
 
 def main():
-    # Show fancy banner
-    banner_text = Text(BANNER)
+        banner_text = Text(BANNER)
     banner_text.stylize("bold magenta")
     console.print(Panel(
         banner_text,
@@ -64,8 +63,6 @@ def main():
     args = parse_args()
     ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
     ensure_dir(args.output)
-    
-    # Show target info
     console.print(f"\n[bold green]Target Type:[/bold green] {args.type}")
     console.print(f"[bold green]Target Value:[/bold green] {args.target}")
     console.print(f"[bold green]Output Directory:[/bold green] {args.output}\n")

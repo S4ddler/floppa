@@ -1,6 +1,17 @@
-# FLOPPA
+<div align="center">
+  <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="800"/>
+  
+  # FLOPPA OSINT Tool
 
-A powerful and beautiful OSINT command line tool for reconnaissance.
+  <p align="center">
+    <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License">
+    <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows%20%7C%20macOS-brightgreen" alt="OS Support">
+    <a href="https://twitter.com/S4ddler"><img src="https://img.shields.io/twitter/follow/S4ddler?style=social" alt="Twitter Follow"></a>
+  </p>
+
+  <p align="center">🔍 A powerful and beautiful OSINT command line tool for reconnaissance.</p>
+</div>
 
 ```
     ███████╗██╗      ██████╗ ██████╗ ██████╗  █████╗ 
@@ -12,7 +23,7 @@ A powerful and beautiful OSINT command line tool for reconnaissance.
            OSINT Framework - By Ahmad Bilaidi (S4ddler)
 ```
 
-## Features
+## ✨ Features
 - **Username OSINT (Sherlock-level and beyond):**
   - Massive sites catalog (JSON), async scans, adaptive detection rules, retries, proxy & user-agent rotation,
     rate-limit handling, colored TUI, JSON/CSV/Markdown reports.
@@ -29,23 +40,39 @@ A powerful and beautiful OSINT command line tool for reconnaissance.
   - HTTP fingerprint (Server header, redirects),
   - Consolidated summary report.
 
-## Quickstart
+## 🚀 Quickstart
 ```bash
-python -m venv venv && source venv/bin/activate  # Windows: venv\Scripts\activate
+# Create and activate virtual environment
+python -m venv venv && source venv/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
 
-# Username scan
+# Username OSINT scan
 python main.py --type username --target "ahmad" --output out --format table,json,md
 
-# Domain scan
+# Domain reconnaissance
 python main.py --type domain --target "example.com" --output out --format table,json,md
 ```
 
-## System Requirements
-- Python 3.9+
-- `dig` (bind9-dnsutils). Fallback to dnspython is included when `dig` missing.
+## 📋 Example Output
 
-## Notes
+<details>
+<summary>Click to see example username scan output</summary>
+
+![Username Scan](.github/assets/username-scan.png)
+</details>
+
+<details>
+<summary>Click to see example domain scan output</summary>
+
+![Domain Scan](.github/assets/domain-scan.png)
+</details>
+
+## 🛠️ System Requirements
+- Python 3.9+
+- `dig` (bind9-dnsutils) - Will fallback to dnspython if not available
+
+## 🔒 Security Notes
 - Only passive techniques are implemented by default except optional lightweight
   port scanning (TCP connect) and AXFR **read-only attempt**. Use responsibly.
-
