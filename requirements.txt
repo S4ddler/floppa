@@ -1,0 +1,18 @@
+aiohttp>=3.8.0
+async-timeout>=4.0.0
+beautifulsoup4>=4.9.3
+certifi>=2021.10.8
+charset-normalizer>=2.0.0
+dnspython>=2.2.0
+idna>=3.3
+psutil>=5.8.0
+python-whois>=0.7.3
+requests>=2.26.0
+rich>=10.12.0
+tqdm>=4.62.3
+urllib3>=1.26.7
+colorama>=0.4.4
+
+# Optional (comment out if not needed)
+# ipwhois
+# cryptography
