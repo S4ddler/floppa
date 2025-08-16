@@ -79,10 +79,10 @@ class DomainScanner:
             if self.dns_server:
                 resolver.nameservers = [self.dns_server]
             
-            console.print("\n[bold green]DNS Records:[/bold green]")
-            dns_table = Table(show_header=True, header_style="bold blue")
-            dns_table.add_column("Record Type", style="bold cyan")
-            dns_table.add_column("Values")
+            console.print("\n[bold]═══════════════ DNS Records ═══════════════[/bold]")
+            dns_table = Table(show_header=True, header_style="bold")
+            dns_table.add_column("Record Type", style="green")
+            dns_table.add_column("Values", style="white")
             
             for rr in SUPPORTED_RRTYPES:
                 recs = self._dig(domain, rr)
@@ -145,12 +145,12 @@ class DomainScanner:
                 ports = [int(p) for p in self.top_ports.split(",") if p.strip().isdigit()]
                 
                 for ip in ips:
-                    console.print(f"\n[bold green]Scanning ports for IP: [cyan]{ip}[/cyan][/bold green]")
-                    port_table = Table(show_header=True, header_style="bold blue")
-                    port_table.add_column("Port", style="bold cyan")
-                    port_table.add_column("Service")
-                    port_table.add_column("Version")
-                    port_table.add_column("Banner")
+                    console.print(f"\n[bold]═══════════════ Port Scan for IP: {ip} ═══════════════[/bold]")
+                    port_table = Table(show_header=True, header_style="bold")
+                    port_table.add_column("Port", style="green")
+                    port_table.add_column("Service", style="white")
+                    port_table.add_column("Version", style="white")
+                    port_table.add_column("Banner", style="white")
                     
                     services = self._scan_ports(ip, ports)
                     service_map[ip] = services

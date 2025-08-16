@@ -51,21 +51,22 @@ def parse_args():
 
 
 def main():
-        banner_text = Text(BANNER)
-    banner_text.stylize("bold magenta")
+    banner_text = Text(BANNER, style="green bold")
     console.print(Panel(
         banner_text,
-        border_style="cyan",
+        border_style="white",
         padding=(1, 2),
-        title="[bold yellow]Welcome to FLOPPA[/bold yellow]"
+        title="[bold]FLOPPA OSINT FRAMEWORK[/bold]"
     ))
     
     args = parse_args()
     ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
     ensure_dir(args.output)
-    console.print(f"\n[bold green]Target Type:[/bold green] {args.type}")
-    console.print(f"[bold green]Target Value:[/bold green] {args.target}")
-    console.print(f"[bold green]Output Directory:[/bold green] {args.output}\n")
+    console.print("\n" + "═" * 50)
+    console.print(f"[bold]Target Type:[/bold] {args.type}")
+    console.print(f"[bold]Target Value:[/bold] {args.target}")
+    console.print(f"[bold]Output Directory:[/bold] {args.output}")
+    console.print("═" * 50 + "\n")
 
     result = None
     meta = {
