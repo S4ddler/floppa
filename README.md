@@ -59,13 +59,13 @@ python main.py --type domain --target "example.com" --output out --format table,
 <details>
 <summary>Click to see example username scan output</summary>
 
-![Username Scan](.github/assets/username-scan)
+![Username Scan](.github/assets/username-scan.png)
 </details>
 
 <details>
 <summary>Click to see example domain scan output</summary>
 
-![Domain Scan](.github/assets/domain-scan)
+![Domain Scan](.github/assets/domain-scan.png)
 </details>
 
 ## 🛠️ System Requirements
@@ -75,6 +75,7 @@ python main.py --type domain --target "example.com" --output out --format table,
 ## 🔒 Security Notes
 - Only passive techniques are implemented by default except optional lightweight
   port scanning (TCP connect) and AXFR **read-only attempt**. Use responsibly.
+
 
 
 
