@@ -168,15 +168,6 @@ FLOPPA supports multiple output formats for better integration with your workflo
 - Use proxy options when necessary to avoid rate limiting
 - Be mindful of service terms and conditions when performing username searches
 
-## 📜 License
+Created by Ahmad Bilaidi (S4ddler).
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit pull requests.
-
-## 📞 Contact
-
-Created by Ahmad Bilaidi (S4ddler)
-```
