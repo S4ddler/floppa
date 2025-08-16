@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="800"/>
+  <img src=".github/assets/banner.png" alt="FLOPPA Tool Banner" width="600"/>
 
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
@@ -168,6 +168,7 @@ FLOPPA supports multiple output formats for better integration with your workflo
 - Be mindful of service terms and conditions when performing username searches
 
 Created by Ahmad Bilaidi (S4ddler).
+
 
 
 
